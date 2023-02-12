@@ -2,8 +2,8 @@ import React from "react";
 import { Route } from "react-router";
 import { Routes } from "react-router-dom";
 import LayoutDefault from "../layouts/layoutDefault";
-import History from "../pages/History";
-import Home from "../pages/Home";
+import History from "../pages/History/History";
+import Home from "../pages/Home/Home";
 
 const Router = () => {
   return (
